@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luna Moona | A Little Dog, A Big Universe</title>
+
+    <meta name="description"
+          content="Meet Luna Moona, a little dachshund with a big imagination.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background: #10182e;
+            color: #fff8e9;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 24px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-bottom: 1px solid #39415b;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #f6dba5;
+        }
+
+        nav a {
+            color: #fff8e9;
+            text-decoration: none;
+            margin-left: 18px;
+        }
+
+        nav a:hover {
+            color: #f6dba5;
+        }
+
+        .hero {
+            min-height: 70vh;
+            padding: 80px 8%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background:
+                radial-gradient(ellipse at top, #39446b 0%, #10182e 70%);
+        }
+
+        .moon {
+            font-size: 4rem;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 5.5rem);
+            line-height: 1.1;
+            margin: 0;
+            color: #f6dba5;
+        }
+
+        .hero p {
+            max-width: 600px;
+            font-size: 1.25rem;
+            margin: 24px auto;
+        }
+
+        .button {
+            display: inline-block;
+            background: #f6dba5;
+            color: #10182e;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #fff0cc;
+        }
+
+        section {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #f6dba5;
+            font-size: 2rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 30px auto 0;
+        }
+
+        .card {
+            padding: 24px;
+            border: 1px solid #39415b;
+            border-radius: 16px;
+            background: #19233e;
+        }
+
+        .card a {
+            color: #f6dba5;
+        }
+
+        footer {
+            padding: 24px;
+            text-align: center;
+            color: #c1c8da;
+            border-top: 1px solid #39415b;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Luna Moona</div>
+
+        <nav>
+            <a href="#about">About Luna</a>
+            <a href="#book">The Book</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="moon" aria-hidden="true">🌙</div>
+
+            <h1>Luna Moona</h1>
+
+            <p>
+                A little dog, a big imagination,
+                and a universe full of wonder.
+            </p>
+
+            <a class="button" href="#about">
+                Meet Luna
+            </a>
+        </section>
+
+        <section id="about">
+            <h2>Meet Luna</h2>
+
+            <p>
+                She's a little dachshund with a world
+                of wonder waiting to be discovered.
+            </p>
+
+            <p>
+                Come along as Luna explores the magic
+                of imagination, curiosity, and adventure.
+            </p>
+        </section>
+
+        <section id="book">
+            <h2>A Story Full of Wonder</h2>
+
+            <p>
+                Discover the world of Luna Moona,
+                a children's book project inspired by
+                the magic of looking beyond the ordinary.
+            </p>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Meet the Character</h3>
+                    <p>Get to know the little dog behind the story.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Discover the Book</h3>
+                    <p>Follow the journey as Luna Moona takes shape.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Follow the Adventure</h3>
+                    <p>Stay tuned for future news and updates.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+
+            <p>
+                Interested in the Luna Moona project?
+                Check back for future announcements.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Luna Moona. All rights reserved.
+    </footer>
+
+</body>
+</html>
